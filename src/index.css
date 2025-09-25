@@ -17,9 +17,9 @@ All colors MUST be HSL.
     --popover: 42 45% 98%;  /* #fefcf8 - warm cream */
     --popover-foreground: 25 40% 20%;  /* #42332a - warm dark brown */
 
-    --primary: 35 65% 45%;  /* #b8834a - warm golden brown */
+    --primary: 210 45% 30%;  /* #2a4e6d - navy blue (main brand color) */
     --primary-foreground: 42 45% 98%;  /* #fefcf8 - warm cream */
-    --primary-glow: 35 75% 55%;  /* lighter golden brown */
+    --primary-glow: 210 50% 40%;  /* lighter navy */
 
     --secondary: 35 35% 88%;  /* #ede5d8 - warm beige */
     --secondary-foreground: 25 40% 20%;  /* #42332a - warm dark brown */
@@ -48,19 +48,19 @@ All colors MUST be HSL.
 
     --border: 35 30% 80%;  /* warm beige border */
     --input: 35 30% 80%;
-    --ring: 35 65% 45%;  /* warm golden brown */
+    --ring: 210 45% 30%;  /* navy blue for focus rings */
 
-    /* Premium gradients with warm palette */
-    --gradient-primary: linear-gradient(135deg, hsl(35 65% 45%), hsl(35 75% 55%));
+    /* Premium gradients with navy as primary */
+    --gradient-primary: linear-gradient(135deg, hsl(210 45% 30%), hsl(210 50% 40%));
     --gradient-accent: linear-gradient(135deg, hsl(25 60% 60%), hsl(25 70% 70%));
-    --gradient-hero: linear-gradient(135deg, hsl(35 65% 45%) 0%, hsl(25 60% 60%) 50%, hsl(42 45% 85%) 100%);
+    --gradient-hero: linear-gradient(135deg, hsl(210 45% 30%) 0%, hsl(25 60% 60%) 50%, hsl(42 45% 85%) 100%);
     --gradient-card: linear-gradient(145deg, hsl(42 45% 98% / 0.9), hsl(35 35% 88% / 0.5));
     --gradient-warm: linear-gradient(135deg, hsl(25 60% 60%), hsl(30 25% 75%));
 
-    /* Premium shadows with warm tones */
-    --shadow-premium: 0 25px 50px -12px hsl(25 40% 20% / 0.25);
-    --shadow-card: 0 10px 25px -5px hsl(25 40% 20% / 0.1);
-    --shadow-glow: 0 0 40px hsl(35 65% 45% / 0.3);
+    /* Premium shadows with navy accents */
+    --shadow-premium: 0 25px 50px -12px hsl(210 45% 30% / 0.25);
+    --shadow-card: 0 10px 25px -5px hsl(210 45% 30% / 0.1);
+    --shadow-glow: 0 0 40px hsl(210 45% 30% / 0.3);
 
     /* Animations */
     --transition-premium: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
