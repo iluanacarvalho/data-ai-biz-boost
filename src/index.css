@@ -8,59 +8,59 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 42 40% 97%;  /* #fffbf6 - cream */
-    --foreground: 300 85% 15%;  /* #5a053a - dark burgundy */
+    --background: 42 45% 98%;  /* #fefcf8 - warm cream */
+    --foreground: 25 40% 20%;  /* #42332a - warm dark brown */
 
-    --card: 42 40% 97%;  /* #fffbf6 - cream */
-    --card-foreground: 300 85% 15%;  /* #5a053a - dark burgundy */
+    --card: 42 45% 98%;  /* #fefcf8 - warm cream */
+    --card-foreground: 25 40% 20%;  /* #42332a - warm dark brown */
 
-    --popover: 42 40% 97%;  /* #fffbf6 - cream */
-    --popover-foreground: 300 85% 15%;  /* #5a053a - dark burgundy */
+    --popover: 42 45% 98%;  /* #fefcf8 - warm cream */
+    --popover-foreground: 25 40% 20%;  /* #42332a - warm dark brown */
 
-    --primary: 300 85% 15%;  /* #5a053a - dark burgundy */
-    --primary-foreground: 42 40% 97%;  /* #fffbf6 - cream */
-    --primary-glow: 300 70% 25%;  /* lighter burgundy */
+    --primary: 35 65% 45%;  /* #b8834a - warm golden brown */
+    --primary-foreground: 42 45% 98%;  /* #fefcf8 - warm cream */
+    --primary-glow: 35 75% 55%;  /* lighter golden brown */
 
-    --secondary: 32 35% 90%;  /* #f0eadf - light beige */
-    --secondary-foreground: 300 85% 15%;  /* #5a053a - dark burgundy */
+    --secondary: 35 35% 88%;  /* #ede5d8 - warm beige */
+    --secondary-foreground: 25 40% 20%;  /* #42332a - warm dark brown */
 
-    --muted: 32 35% 90%;  /* #f0eadf - light beige */
-    --muted-foreground: 25 15% 45%;  /* #cea6a2 area - muted rose */
+    --muted: 35 35% 88%;  /* #ede5d8 - warm beige */
+    --muted-foreground: 25 25% 50%;  /* #7a6b5d - muted brown */
 
-    --accent: 45 55% 65%;  /* #d6b777 - golden */
-    --accent-foreground: 300 85% 15%;  /* #5a053a - dark burgundy */
-    --accent-glow: 45 65% 75%;  /* lighter golden */
+    --accent: 25 60% 60%;  /* #cc9981 - warm terracotta */
+    --accent-foreground: 42 45% 98%;  /* #fefcf8 - warm cream */
+    --accent-glow: 25 70% 70%;  /* lighter terracotta */
 
-    --success: 190 35% 35%;  /* #3f5a61 - teal */
-    --success-foreground: 42 40% 97%;  /* #fffbf6 - cream */
+    --success: 150 30% 40%;  /* #4a7a5a - forest green */
+    --success-foreground: 42 45% 98%;  /* #fefcf8 - warm cream */
 
-    --navy: 210 45% 30%;  /* #2a4e6d - navy blue */
-    --navy-foreground: 42 40% 97%;  /* #fffbf6 - cream */
+    --navy: 210 35% 35%;  /* #3e5a73 - muted navy */
+    --navy-foreground: 42 45% 98%;  /* #fefcf8 - warm cream */
 
-    --rose: 15 25% 70%;  /* #cea6a2 - rose */
-    --rose-foreground: 300 85% 15%;  /* #5a053a - dark burgundy */
+    --rose: 15 40% 70%;  /* #d4a397 - warm rose */
+    --rose-foreground: 25 40% 20%;  /* #42332a - warm dark brown */
 
-    --warm-gray: 30 20% 75%;  /* #d2c3b7 - warm gray */
-    --warm-gray-foreground: 300 85% 15%;  /* #5a053a - dark burgundy */
+    --warm-gray: 30 25% 75%;  /* #d6c8ba - warm taupe */
+    --warm-gray-foreground: 25 40% 20%;  /* #42332a - warm dark brown */
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 42 40% 97%;
 
-    --border: 32 25% 85%;  /* softer border based on beige */
-    --input: 32 25% 85%;
-    --ring: 300 85% 15%;  /* #5a053a - dark burgundy */
+    --border: 35 30% 80%;  /* warm beige border */
+    --input: 35 30% 80%;
+    --ring: 35 65% 45%;  /* warm golden brown */
 
-    /* Premium gradients with new palette */
-    --gradient-primary: linear-gradient(135deg, hsl(300 85% 15%), hsl(300 70% 25%));
-    --gradient-accent: linear-gradient(135deg, hsl(45 55% 65%), hsl(45 65% 75%));
-    --gradient-hero: linear-gradient(135deg, hsl(300 85% 15%) 0%, hsl(210 45% 30%) 50%, hsl(45 55% 65%) 100%);
-    --gradient-card: linear-gradient(145deg, hsl(42 40% 97% / 0.9), hsl(32 35% 90% / 0.5));
-    --gradient-warm: linear-gradient(135deg, hsl(15 25% 70%), hsl(30 20% 75%));
+    /* Premium gradients with warm palette */
+    --gradient-primary: linear-gradient(135deg, hsl(35 65% 45%), hsl(35 75% 55%));
+    --gradient-accent: linear-gradient(135deg, hsl(25 60% 60%), hsl(25 70% 70%));
+    --gradient-hero: linear-gradient(135deg, hsl(35 65% 45%) 0%, hsl(25 60% 60%) 50%, hsl(42 45% 85%) 100%);
+    --gradient-card: linear-gradient(145deg, hsl(42 45% 98% / 0.9), hsl(35 35% 88% / 0.5));
+    --gradient-warm: linear-gradient(135deg, hsl(25 60% 60%), hsl(30 25% 75%));
 
-    /* Premium shadows */
-    --shadow-premium: 0 25px 50px -12px hsl(300 85% 15% / 0.25);
-    --shadow-card: 0 10px 25px -5px hsl(300 85% 15% / 0.1);
-    --shadow-glow: 0 0 40px hsl(45 55% 65% / 0.3);
+    /* Premium shadows with warm tones */
+    --shadow-premium: 0 25px 50px -12px hsl(25 40% 20% / 0.25);
+    --shadow-card: 0 10px 25px -5px hsl(25 40% 20% / 0.1);
+    --shadow-glow: 0 0 40px hsl(35 65% 45% / 0.3);
 
     /* Animations */
     --transition-premium: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
