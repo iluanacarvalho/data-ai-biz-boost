@@ -15,9 +15,11 @@ const buttonVariants = cva(
         secondary: "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
-        hero: "bg-gradient-hero text-white font-semibold shadow-premium hover:shadow-glow transition-all duration-500 transform hover:scale-105",
+        hero: "bg-gradient-hero text-primary-foreground font-semibold shadow-premium hover:shadow-glow transition-all duration-500 transform hover:scale-105",
         premium: "bg-gradient-primary text-primary-foreground shadow-card hover:shadow-premium transition-all duration-300",
         accent: "bg-accent text-accent-foreground hover:bg-accent/90 shadow-card",
+        navy: "bg-navy text-navy-foreground hover:bg-navy/90 shadow-card",
+        warm: "bg-gradient-warm text-warm-gray-foreground hover:opacity-90 shadow-card",
       },
       size: {
         default: "h-10 px-4 py-2",
