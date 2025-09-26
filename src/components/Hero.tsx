@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import luanaHero from "@/assets/luana-hero.jpg";
+import userPhoto from "@/assets/user-photo.jpg";
 
 const Hero = () => {
   return (
@@ -23,29 +23,19 @@ const Hero = () => {
                 sem desperdiçar anos em tentativas aleatórias e cursos genéricos.
               </p>
             </div>
-            <div className="flex flex-col sm:flex-row gap-4">
-              <Button variant="hero" size="lg" className="text-lg px-8 py-4">
-                Agendar Mentoria Agora
-              </Button>
-              <Button variant="outline" size="lg" className="text-lg px-8 py-4 border-white/30 text-white hover:bg-white/10">
-                Saiba Mais
+            <div>
+              <Button variant="hero" size="lg" className="text-lg px-12 py-4 bg-primary hover:bg-primary-glow">
+                AGENDE AGORA MESMO
               </Button>
             </div>
           </div>
           <div className="relative">
             <div className="relative rounded-2xl overflow-hidden shadow-premium">
               <img
-                src={luanaHero}
+                src={userPhoto}
                 alt="Luana Carvalho - Especialista em IA e Dados"
                 className="w-full h-auto object-cover"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent"></div>
-            </div>
-            <div className="absolute -top-4 -right-4 bg-accent rounded-full p-4 shadow-glow">
-              <div className="text-white text-center">
-                <div className="text-2xl font-bold">R$ 1.000</div>
-                <div className="text-sm opacity-90">por 1 hora</div>
-              </div>
             </div>
           </div>
         </div>
