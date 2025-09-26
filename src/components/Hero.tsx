@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import userPhoto from "@/assets/user-photo.jpg";
+import luanaPhoto from "@/assets/luana-photo.jpg";
 
 const Hero = () => {
   return (
@@ -32,7 +32,7 @@ const Hero = () => {
           <div className="relative">
             <div className="relative rounded-2xl overflow-hidden shadow-premium">
               <img
-                src={userPhoto}
+                src={luanaPhoto}
                 alt="Luana Carvalho - Especialista em IA e Dados"
                 className="w-full h-auto object-cover"
               />
