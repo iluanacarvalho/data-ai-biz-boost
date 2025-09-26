@@ -24,8 +24,10 @@ const Hero = () => {
               </p>
             </div>
             <div>
-              <Button variant="hero" size="lg" className="text-lg px-12 py-4 bg-primary hover:bg-primary-glow">
-                AGENDE AGORA MESMO
+              <Button asChild variant="hero" size="lg" className="text-lg px-12 py-4 bg-primary hover:bg-primary-glow">
+                <a href="https://api.whatsapp.com/send/?phone=554431424835" target="_blank" rel="noopener noreferrer">
+                  AGENDE AGORA MESMO
+                </a>
               </Button>
             </div>
           </div>
